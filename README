@@ -14,6 +14,9 @@ e.g.:
 Compilation:
 g++ -o Space2Ctrl Space2Ctrl.cpp -W -Wall -L/usr/X11R6/lib -lX11 -lXtst
 
+Install:
+make && make install
+
 Usage:
 * Load Space2Ctrl with start_Space2Ctrl
 * Unload Space2Ctrl with stop_Space2Ctrl
